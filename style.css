@@ -1,0 +1,73 @@
+.navbar-container{
+    margin:50px 30px;
+
+display: flex;
+justify-content: space-between;
+
+}
+.grow-list{
+
+    position: relative;
+    right: 160px;
+}
+.list{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    right: 50px;
+    
+}
+
+.list-item{
+    margin: 0 35px;
+    font-size: 20px;
+    
+}
+
+.list-item ~ li{
+    color: rgb(188,188,188);
+}
+
+.banner-container{
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.heading-text{
+    margin-top: 150px;
+    margin-bottom: 0px;
+    color: rgb(60,47,96);
+    /* text-align: center; */
+    font-size: 70px;
+}
+.heading-text>span{
+    color: rgb(88,85,179);
+}
+
+.description{
+    font-size: 20px;
+    padding-right: 30px;
+    color: rgb(151,151,151);
+    margin-bottom: 60px;
+}
+
+
+
+ .nav-button.btn{
+    background-color: rgb(88,85,179);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 30px;
+}
+.button-group>.nav-button{
+    background-color: rgb(88,85,179);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 25px;
+}
